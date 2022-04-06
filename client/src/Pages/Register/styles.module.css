@@ -1,0 +1,55 @@
+.register_error_msg {
+	width: 100%;
+	margin: 10px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.register_container {
+	width: 100%;
+	min-height: 75vh;
+	background-color: #f8f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.register_wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.register_title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.register_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.register_input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+.register_agreement {
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.register_button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
